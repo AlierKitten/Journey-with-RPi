@@ -10,3 +10,4 @@
 - aria2
 - ftp服务
 - 自动挂载nvme硬盘
+- 硬盘状态监控smartmontools`sudo smartctl -x /dev/nvme0n1 | grep "Temperature Sensor"`
