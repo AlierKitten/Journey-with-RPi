@@ -11,3 +11,5 @@
 - ftp服务
 - 自动挂载nvme硬盘
 - 硬盘状态监控smartmontools`sudo smartctl -x /dev/nvme0n1 | grep "Temperature Sensor"`
+
+因更新qb的测试版，导致树莓派原版桌面无法进入
