@@ -21,6 +21,10 @@ sudo chown pi:pi /home/pi/nvme
 ```
 
 ------
+查找UUID：
+```bash
+sudo blkid
+```
 
 ### 🔹 第 2 步：编辑挂载配置
 
