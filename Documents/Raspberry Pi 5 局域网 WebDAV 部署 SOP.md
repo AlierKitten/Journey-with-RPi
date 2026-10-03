@@ -296,8 +296,6 @@ sudo nano /etc/apache2/sites-available/webdav.conf
         Options Indexes
         AllowOverride None
 
-        Require all granted
-
         Dav On
 
         AuthType Basic
