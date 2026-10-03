@@ -250,7 +250,7 @@ grep -n "4448" /etc/apache2/ports.conf
 sudo mkdir -p /etc/apache2/webdav
 ```
 
-创建用户：
+创建名为 `webdav` 的用户：
 
 ```bash
 sudo htpasswd -c /etc/apache2/webdav/.htpasswd webdav
@@ -266,6 +266,11 @@ sudo htpasswd -c /etc/apache2/webdav/.htpasswd webdav
 
 ```bash
 sudo htpasswd /etc/apache2/webdav/.htpasswd username
+```
+
+删除旧认证文件：
+```bash
+sudo rm /etc/apache2/webdav/.htpasswd
 ```
 
 检查：
